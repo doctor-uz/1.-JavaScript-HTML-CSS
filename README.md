@@ -10,8 +10,6 @@
 
 5. [Semantic Markup](https://github.com/doctor-uz/1.JavaScript-HTML-CSS/tree/master/Semantic_Markup)
 
-6. [CSS Selectors: Transforms, Transitions, Animations, Filters](https://github.com/doctor-uz/1.JavaScript-HTML-CSS/tree/master/CSS-Selectors_Transforms_Transitions_Animations_Filters)
+6. [Objects & Arrays](https://github.com/doctor-uz/1.JavaScript-HTML-CSS/tree/master/Objects%26Arrays)
 
-7. [Objects & Arrays](https://github.com/doctor-uz/1.JavaScript-HTML-CSS/tree/master/Objects%26Arrays)
-
-8. [Media Queries](https://github.com/doctor-uz/1.JavaScript-HTML-CSS/tree/master/Media_Queries%26Responsive_Design)
+7. [Media Queries](https://github.com/doctor-uz/1.JavaScript-HTML-CSS/tree/master/Media_Queries%26Responsive_Design)
