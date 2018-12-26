@@ -2,9 +2,9 @@
 
 1. [Data Types / Control Flow](https://github.com/doctor-uz/1.JavaScript-HTML-CSS/tree/master/Data_Types-Control_Flow)
 
-2. [HTML/CSS - Floats, Position, Display](https://github.com/doctor-uz/1.JavaScript-HTML-CSS/tree/master/CSS-Lab_Floats_Position_Display)
+2. [Placing Elements: Floats, Position, Display](https://github.com/doctor-uz/1.JavaScript-HTML-CSS/tree/master/CSS-Lab_Floats_Position_Display)
 
-3. [Placing Elements: Floats, Position, Display](https://github.com/doctor-uz/1.JavaScript-HTML-CSS/tree/master/CSS-Selectors_Transforms_Transitions_Animations_Filters)
+3. [CSS Selectors: Transforms, Transitions, Animations, Filters](https://github.com/doctor-uz/1.JavaScript-HTML-CSS/tree/master/CSS-Selectors_Transforms_Transitions_Animations_Filters)
 
 4. [Functions and Scope](https://github.com/doctor-uz/1.JavaScript-HTML-CSS/tree/master/Functions%26Scope)
 
