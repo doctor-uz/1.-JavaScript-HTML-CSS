@@ -12,4 +12,4 @@
 
 6. [Objects & Arrays](https://github.com/doctor-uz/1.JavaScript-HTML-CSS/tree/master/Objects%26Arrays)
 
-7. [Media Queries](https://github.com/doctor-uz/1.JavaScript-HTML-CSS/tree/master/Media_Queries%26Responsive_Design)
+7. [Media Queries & Responsive Design](https://github.com/doctor-uz/1.JavaScript-HTML-CSS/tree/master/Media_Queries%26Responsive_Design)
