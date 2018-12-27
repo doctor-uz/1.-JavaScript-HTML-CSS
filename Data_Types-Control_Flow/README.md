@@ -310,3 +310,44 @@ if ([]) {
 
 ```
 
+# Exercises
+
+1. Write a function named `logType` that expects a single argument and logs a different string depending on the type/value of the argument that is passed to it. The string it logs should be one of the following:
+
+  * "undefined!"
+  * "null!"
+  * "number!"
+  * "not a number!"
+  * "string!"
+  * "boolean!"
+  * "function!"
+  * "object!"
+  * "array!"
+  * "I have no idea!"
+
+  My [solution](https://github.com/doctor-uz/1.JavaScript-HTML-CSS/blob/master/Data_Types-Control_Flow/1-logType.js).
+
+2. Copy the following object into your code:
+  ```js
+  var a = {
+      Berlin: 'Germany',
+      Paris: 'France',
+      'New York': 'USA'
+  };
+  ```
+  Then create a new empty object `b` and use a `for..in` loop to iterate over all of `a`'s properties. Give `b` properties whose names are the values from `a` and whose values are the property names from `a`. The result should be an object that looks like this:
+
+  ```js
+  {
+      Germany: 'Berlin',
+      France: 'Paris',
+      USA: 'New York' 
+  }
+  ```
+
+  My [solution](https://github.com/doctor-uz/1.JavaScript-HTML-CSS/blob/master/Data_Types-Control_Flow/2-object.js).
+
+3. Write a `while` or `for` loop that counts down from 10 to 1, logging each number to the console.
+
+   My [solution](https://github.com/doctor-uz/1.JavaScript-HTML-CSS/blob/master/Data_Types-Control_Flow/3-for.js).
+
