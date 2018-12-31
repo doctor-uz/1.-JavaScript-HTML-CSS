@@ -1,3 +1,49 @@
+# Exercises
+
+1. Write a function called `each` that accepts either an object or an array as its first parameter and a callback as its second parameter.
+
+   If the first parameter is an object, it should loop over the object's properties and call the callback for each one. The property value should be the first parameter passed to the callback and the property name should be the second.
+
+   If the first parameter is an array, it should loop over the array's elements and call the callback for each one. The array element should be the first parameter passed to the callback and the index should be the second.
+
+   ```js
+     each({
+       a: 1,
+       b: 2
+     }, function(val, name) {
+       console.log('The value of ' + name + ' is ' + val);
+     }); // logs 'the value of a is 1' and 'the value of b is 2'
+   
+     each(['a', 'b'], function(val, idx) {
+       console.log('The value of item ' + idx + ' is ' + val);
+     }); // logs 'the value of item 0 is a' and 'the value of item 1 is b'
+   ```
+
+   #### My [solution](https://github.com/doctor-uz/1.JavaScript-HTML-CSS/blob/master/Objects%26Arrays/1-each.js).
+
+2. Write a function that takes an array as a parameter and returns a new array containing all of the items that are in the array that was passed in but in reverse order. Unlike the `reverse` method that all arrays have, this function should leave the original array unchanged.
+
+   #### My [solution](https://github.com/doctor-uz/1.JavaScript-HTML-CSS/blob/master/Objects%26Arrays/2-array.js).
+
+3. Write a function called `getLessThanZero` that expects an array of numbers to be passed to it and returns a new array containing only those numbers from the array that was passed in that are less than zero.
+
+   ```js
+     getLessThanZero([1, 2, -1, -90, 10]); //[-1, -90]
+     getLessThanZero([1, 2]); //[]
+   ```
+
+   #### My [solution](https://github.com/doctor-uz/1.JavaScript-HTML-CSS/blob/master/Objects%26Arrays/3-getLessThenZero.js).
+
+
+
+
+
+# <p align="center"> Some Theory</p>
+
+
+
+
+
 # Objects
 
 Objects are collections of properties. Properties have names and values. Property names can be any string. However, if you wish to access a property using dot syntax, the name must begin with an alphabetic character, $, or _, and contain only those same characters and/or digits. Otherwise, you must access the property with square brackets and quotes.
@@ -315,37 +361,3 @@ Other extremely useful array methods:
 * <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/lastIndexOf">`lastIndexOf`</a> - like `indexOf` but returns the index of the last occuring match in the array instead of the first
 * <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach">`forEach`</a> - an alternative to a `for` loop
 
-# Exercises
-
-1. Write a function called `each` that accepts either an object or an array as its first parameter and a callback as its second parameter.
-
-    If the first parameter is an object, it should loop over the object's properties and call the callback for each one. The property value should be the first parameter passed to the callback and the property name should be the second.
-
-    If the first parameter is an array, it should loop over the array's elements and call the callback for each one. The array element should be the first parameter passed to the callback and the index should be the second.
-    ```js
-      each({
-        a: 1,
-        b: 2
-      }, function(val, name) {
-        console.log('The value of ' + name + ' is ' + val);
-      }); // logs 'the value of a is 1' and 'the value of b is 2'
-    
-      each(['a', 'b'], function(val, idx) {
-        console.log('The value of item ' + idx + ' is ' + val);
-      }); // logs 'the value of item 0 is a' and 'the value of item 1 is b'
-    ```
-
-    My [solution](https://github.com/doctor-uz/1.JavaScript-HTML-CSS/blob/master/Objects%26Arrays/1-each.js).
-
-2. Write a function that takes an array as a parameter and returns a new array containing all of the items that are in the array that was passed in but in reverse order. Unlike the `reverse` method that all arrays have, this function should leave the original array unchanged.
-
-    My [solution](https://github.com/doctor-uz/1.JavaScript-HTML-CSS/blob/master/Objects%26Arrays/2-array.js).
-
-3. Write a function called `getLessThanZero` that expects an array of numbers to be passed to it and returns a new array containing only those numbers from the array that was passed in that are less than zero.
-
-    ```js
-      getLessThanZero([1, 2, -1, -90, 10]); //[-1, -90]
-      getLessThanZero([1, 2]); //[]
-    ```
-
-    My [solution](https://github.com/doctor-uz/1.JavaScript-HTML-CSS/blob/master/Objects%26Arrays/3-getLessThenZero.js).
